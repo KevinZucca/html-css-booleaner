@@ -1,8 +1,7 @@
-* {
+html {
     box-sizing: border-box;
-    margin: 0;
     padding: 0;
-    margin-left: 3px;
+    margin-left: 5px;
 }
 
 header {
@@ -11,7 +10,7 @@ header {
     background-color: #4EA0ff;
     background-size: contain;
     background-position: top;
-    margin: auto;
+    margin: 0;
 }
 
 #logo {
@@ -53,4 +52,23 @@ h1 {
 
 .lorem {
     margin-bottom: 50px;
+}
+
+thead {
+    background-color: #20A9E5;
+    color: white;
+}
+
+.blue {
+    background-color: #B1E5F2;
+}
+
+
+td {
+    height: 100px;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
 }
