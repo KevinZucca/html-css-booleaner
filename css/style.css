@@ -19,9 +19,6 @@ header {
     margin-top: 80px;
 }
 
-.titolo {
-    margin: 50px auto 50px 15px;
-}
 
 h1 {
     font-size: 45px;
@@ -69,10 +66,17 @@ td {
     text-align: center;
 }
 
+.left {
+    text-align: left;
+}
+
 table {
     border-collapse: collapse;
 }
 
+.cella {
+    width: 25%;
+}
 .testo-lungo {
     text-align: justify;
 }
