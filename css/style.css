@@ -4,6 +4,8 @@ html {
     margin-left: 5px;
 }
 
+
+/* PROPRIETA' HEADER*/
 header {
     height: 200px;
     background-image: url("/img/pattern.png");
@@ -18,6 +20,7 @@ header {
     width: 400px;
     margin-top: 80px;
 }
+/* FINE PROPRIETA' HEADER */
 
 
 h1 {
@@ -60,8 +63,8 @@ thead {
     background-color: #B1E5F2;
 }
 
-
-td {
+/* PROPRIETA' TABELLA*/
+tbody {
     height: 100px;
     text-align: center;
 }
@@ -77,10 +80,14 @@ table {
 .cella {
     width: 25%;
 }
-.testo-lungo {
+.justified {
     text-align: justify;
 }
+/* FINE PROPRIETA' TABELLA */
 
+
+
+/* PROPRIETA' FOOTER */
 .foto {
     width: 400px;
     height: 300px;
