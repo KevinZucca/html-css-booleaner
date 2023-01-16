@@ -38,7 +38,6 @@ h1 {
 
 #data {
     font-size: small;
-    margin-bottom: 30px;
 }
 
 .photo-description {
@@ -52,6 +51,7 @@ h1 {
 
 .lorem {
     margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 thead {
@@ -71,4 +71,27 @@ td {
 
 table {
     border-collapse: collapse;
+}
+
+.testo-lungo {
+    text-align: justify;
+}
+
+.foto {
+    width: 400px;
+    height: 300px;
+    background-size: contain;
+}
+
+div > h2 {
+    color: white;
+    padding: 10px;
+}
+
+.prima-foto {
+    background-image: url(/img/monitor.jpg);
+}
+
+.seconda-foto {
+    background-image: url(/img/graph.jpg);
 }
