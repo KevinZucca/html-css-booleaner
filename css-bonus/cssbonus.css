@@ -91,3 +91,7 @@ div > h2 {
 .seconda-foto {
     background-image: url(/img/graph.jpg);
 }
+
+#centrato {
+    padding: 0px 100px 0px 100px;
+}
