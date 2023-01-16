@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    margin-left: 3px;
 }
 
 header {
@@ -10,11 +11,46 @@ header {
     background-color: #4EA0ff;
     background-size: contain;
     background-position: top;
+    margin: auto;
 }
 
 #logo {
     height: 100px;
     width: 400px;
     margin-top: 80px;
-    margin-left: 10px;
+}
+
+.titolo {
+    margin: 50px auto 50px 15px;
+}
+
+h1 {
+    font-size: 45px;
+}
+
+#booleaner {
+    color: #1DA7E4;
+}
+
+.grey {
+    color: #7E7E7E;
+    font-weight: 600;
+}
+
+#data {
+    font-size: small;
+    margin-bottom: 30px;
+}
+
+.photo-description {
+    font-size: small;
+    font-weight: 500;
+}
+
+#yellow {
+    background-color: yellow;
+}
+
+.lorem {
+    margin-bottom: 50px;
 }
