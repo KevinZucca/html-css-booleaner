@@ -1,16 +1,18 @@
 html {
     box-sizing: border-box;
+    margin: 0;
     padding: 0;
-    margin-left: 5px;
 }
 
-
+main, footer {
+    margin-left: 5px;
+}
 /* PROPRIETA' HEADER*/
 header {
-    height: 200px;
+    
     background-image: url("/img/pattern.png");
     background-color: #4EA0ff;
-    background-size: contain;
+    background-size: auto 200%;
     background-position: top;
     margin: 0;
 }
@@ -18,14 +20,16 @@ header {
 #logo {
     height: 100px;
     width: 400px;
-    margin-top: 80px;
+    padding-top: 80px;
 }
 /* FINE PROPRIETA' HEADER */
 
 
 h1 {
     font-size: 45px;
+    margin-bottom: 0;
 }
+
 
 #booleaner {
     color: #1DA7E4;
@@ -36,8 +40,13 @@ h1 {
     font-weight: 600;
 }
 
+p {
+    margin: 0;
+}
+
 #data {
     font-size: small;
+    margin-bottom: 20px;
 }
 
 .photo-description {
