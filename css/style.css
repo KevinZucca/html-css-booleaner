@@ -10,7 +10,7 @@ main, footer {
 /* PROPRIETA' HEADER*/
 header {
     
-    background-image: url("/img/pattern.png");
+    background-image: url("../img/pattern.png");
     background-color: #4EA0ff;
     background-size: auto 200%;
     background-position: top;
@@ -109,9 +109,9 @@ div > h2 {
 }
 
 .prima-foto {
-    background-image: url(/img/monitor.jpg);
+    background-image: url(../img/monitor.jpg);
 }
 
 .seconda-foto {
-    background-image: url(/img/graph.jpg);
+    background-image: url(../img/graph.jpg);
 }
